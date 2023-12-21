@@ -1,0 +1,4 @@
+- name: Create a mapped drive under Z
+  community.windows.win_mapped_drive:
+    letter: Z
+    path: \\192.168.150.233\share
